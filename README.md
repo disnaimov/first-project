@@ -31,7 +31,8 @@ __полужирный__ **полужирный**  _курсив_ *курсив*
 ```bash
 ls - la - pwd - cd - 
 ```
-```html
+```git
+git init
 git add .
 git commit -m "Message"
 git push
