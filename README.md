@@ -29,10 +29,12 @@ __полужирный__ **полужирный**  _курсив_ *курсив*
 
 
 ```bash
-ls - la
+ls - la - pwd - cd - 
 ```
 ```html
-<h1>А я просто текст</h1>
+git add .
+git commit -m "Message"
+git push
 ```
 
 [disnaimov](https://github.com/disnaimov)
