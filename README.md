@@ -57,6 +57,6 @@ git push
 graph LR;
     untracked -- "git add" --> staged;
     staged -- "???" -->tracked/comited;
-    HEAD --> это самый свежий комит;
+   %% HEAD --> это самый свежий комит;
 ```
 
