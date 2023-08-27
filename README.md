@@ -63,4 +63,5 @@ graph LR;
 ```mermaid
 graph LR;
 HEAD --> это самый свежий комит;
+
 ```
