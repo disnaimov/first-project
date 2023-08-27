@@ -54,10 +54,9 @@ git push
 
 
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+graph LR;
+    untracked -- "git add" --> staged;
+    staged -- "???" -->tracked/comited;
+    a --> B;
 ```
 
