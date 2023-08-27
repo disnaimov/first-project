@@ -53,18 +53,11 @@ git push
 
 
 
-HEAD -- это голова.
-Коммит -- это всему голова.
-Статусы файлов:
-<тут пустая строка!>
-
 ```mermaid
-graph LR;
-  untracked -- "git add" --> staged;
-  staged -- "???"        --> tracked/comited
-
-  %Стрелка без текста:
-  A --> B;
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
 ```
-<и тут пустая строка!>
 
