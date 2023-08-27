@@ -50,17 +50,14 @@ git push
 - первый 
 - второй
 
-
-
+    HEAD -- это самый свежий комит
+    LOG -- список комитов
+    хеш -- идентификатор комита, позволяет узнать автора, дату и содержимое
+    LOG --oneline -- сокращенный log
 
 ```mermaid
 graph LR;
     untracked -- "git add" --> staged;
     staged -- "???" -->tracked/comited;
-   %% HEAD --> это самый свежий комит;
 ```
 
-```mermaid
-graph LR;
-    HEAD -- Самый свежий комит;
-```
